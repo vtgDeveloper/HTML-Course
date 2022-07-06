@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso General</title>
+    <link rel="stylesheet" href="web-storage.css">
+</head>
+<body>
+    <!--FORMULARIOS-->
+    <form action="" id="formulario">
+        <fieldset>
+            <legend>Personal Info</legend>
+             <!-- botones de radio -->
+            <label for="interior">
+                <input id="interior" type="radio" name="interior-exterior" checked>Interior
+            </label>
+
+            <label for="exterior">
+                <input id="exterior" type="radio" name="interior-exterior">Exterior
+            </label>
+
+
+            <!--SELECT OPTIONS-->
+            <!-- <label for="coffee">Favorite Coffee:</label>
+            <select name="coffee" id="coffee">
+                <optgroup label="Coffees">
+                    <option value="regular coffee">Regular Coffee</option>
+                    <option value="iced coffee">Iced Coffee</option>
+                </optgroup>
+                
+                <optgroup label="Express Coffee">
+                    <option value="lattee">Lattee</option>
+                    <option value="cappuccino">Cappuccino</option>
+                </optgroup>
+               
+            </select> -->
+
+            <!--DATALIST-->
+            <label for="coffee">Favorite Coffee:</label>
+            <input type="text" name="cafe" id="coffee" list="coffee-list">
+            <datalist id="coffee-list">
+                <option value="coffee"></option>
+                <option value="latte"></option>
+                <option value="espresso"></option>
+                <option value="cortado"></option>
+                <option value="americano"></option>
+                <option value="other"></option>
+            </datalist>
+
+            <a href="documents/Proyecto final.pdf" download="Proyecto final.pdf">IMAGEN</a>
+       
+
+
+            <!--CASILLAS DE VERIFICACION-->
+            <label for="cariñoso">
+                <input type="checkbox" id="cariñoso" name="personalidad" checked value="cariñoso">Cariñoso
+            </label>
+
+            <label for="perezoso">
+                <input type="checkbox" id="perezoso" name="personalidad">Perezoso
+            </label>
+
+            <label for="energetico">
+                <input type="checkbox" id="energetico" name="personalidad" value="exterior">Energético
+            </label>
+        
+       
+
+            <!--TEXTO Y BOTON-->
+            <input type="text" placeholder="Username" required>
+            <button type="submit">Enviar</button>
+        </fieldset>
+
+       
+    </form>
+
+
+
+</body>
+</html>

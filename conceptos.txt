@@ -1,0 +1,10 @@
+Elemento: 
+    componente basico de un archivo html.
+    Se utilizan los elementos para definir la estructura de una pagina web en un archivo html
+
+Etiquetas:
+    nos permiten definir los elementos en un archivo html
+    Especifican el tipo de elemento que se va a crear
+
+    
+
